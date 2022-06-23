@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="main_body">
+
+    <div class="bg_img">
+        <!--Section of heading text and background image-->
+        <img class="fit" src="./fog.jpg" alt="Background image">
+        <div class="text_link">
+            <ul class="text">
+                <li><a href="./weather.html">Meteorolog</a></li>
+                <!--Linking the same page when the text is clicked-->
+            </ul>
+        </div>
+
+
+        <div class="mid-section">
+            <!--This div hold the search bar and button and all the linkings -->
+            <div class="container">
+                <div class="search-bar">
+                    <input required type="text" name="Search" class="Name" placeholder=" Place..">
+                    <!--Search bar tag-->
+                    <input type="Submit" value="Search" class="button" onclick="processed() ">
+                    <!--Submit button tag with properties that triggers a function-->
+                </div>
+            </div>
+
+        </div>
+        <div id="data">
+            
+            <!---This section displays the main content of the web app-->
+            <!-- <div class="loading"></div> -->
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <!--Footer section-->
+        <div class="copyright">Copyright &copy;
+            <h2 class="end"><a href="https://www.instagram.com/sauravvn/"
+                    onclick="window.open('https://www.facebook.com/christianosaurav.niraula/');" lass="links">Saurav
+                    <!--Linking my social handles (instagram and facebook)-->
+                    Niraula</a></h1>
+        </div>
+    </div>
+
+
+    
+    <script src="./script.js"></script>
+    <!--Linking my other js file-->
+</body>
+
+</html>
